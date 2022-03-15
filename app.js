@@ -49,3 +49,8 @@ $colorInput.on("keyup blur change", () => {
 $("img").on("click", function (evt) {
   $(evt.target).remove();
 });
+
+//both work 
+$('img').on('click', () => {
+  $('img').remove();
+})
